@@ -1,0 +1,25 @@
+# Core FastAPI
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+python-multipart==0.0.6
+
+# LangChain (из ВАШЕГО кода)
+langchain==1.2.4
+langchain-openai==1.1.7
+langchain-core==1.2.7
+langgraph==1.0.6
+
+# RAG и retrieval (из ВАШЕГО кода)
+faiss-cpu==1.7.4
+sentence-transformers==5.2.0
+rank-bm25==0.2.2
+
+# Data processing
+pandas==2.3.3
+pyarrow==22.0.0
+numpy==2.4.1
+
+# Utils
+python-dotenv==1.0.1
+tenacity==9.1.2
